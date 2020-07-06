@@ -2,13 +2,14 @@ package ps011_020;
 
 import java.util.Scanner;
 
-public class ps011 {
+public class ps015_2 {
 
 	public static void main(String[] args) {
-
+		
 		Scanner sc = new Scanner(System.in);
-		String n = sc.nextLine();
-		System.out.println(n);
+		float f = sc.nextFloat();
+		
+		System.out.printf(String.format("%.2f", f));
 
 	}
 
